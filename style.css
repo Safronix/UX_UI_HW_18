@@ -116,6 +116,17 @@ ul{
     border-radius: 25px;
     background-color: 1A64BB;
 }
+.features{
+    position: relative;
+    top: -90px;
+}
+h3{
+    font-size: 40px;
+}
+p2{
+    word-wrap: normal;
+    font-size: 25px;
+}
 button{
     font-size: 20px;
     padding: 15px 32px;
@@ -124,14 +135,41 @@ button{
     margin: 25px;
 }
 footer{
-    background-color: #6f6f71;
-    padding: 10px;
+    background-color: #1A64BB;
+    padding: 120px;
 }
 footer ul{
     display: inline-block;
     vertical-align: top;
-    padding: 15px;
+    list-style-type: none;
     position: relative;
     left: 705px;
     font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.listOne{
+    position: absolute;
+    left: -1000px;
+    bottom: -330px;
+    text-align: center;
+}
+.listTwo{
+    position: absolute;
+    left: -340px;
+    bottom: -285px;
+    text-align: center;
+}
+.listThree{
+    position: absolute;
+    left: -100px;
+    bottom: -280px;
+    text-align: center;
+}
+.listFour{
+    position: absolute;
+    left: 230px;
+    bottom: -305px;
+    text-align: center;
 }
